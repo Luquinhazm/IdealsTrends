@@ -26,7 +26,7 @@
 }
 
 .info-telefone-wrapper div {
-    max-width: 894px;
+  max-width: 894px;
   width: 80%;
   display: flex;
   justify-content: end;
@@ -84,8 +84,8 @@
   display: block;
 }
 
-.active{
-    display: block;
+.active {
+  display: block;
 }
 
 .submenu-1 li {
@@ -129,7 +129,7 @@
 }
 
 .caixa-destaque {
-    max-width: 894px;
+  max-width: 894px;
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -197,6 +197,10 @@
     width: 95%;
   }
 
+  .info-telefone-wrapper div {
+    justify-content: center;
+  }
+
   .caixa-destaque ul {
     justify-content: space-around;
     gap: 0;
@@ -207,25 +211,26 @@
     margin-bottom: 4px;
   }
 
-  .slider{
+  .slider {
     width: 90%;
   }
 
-  .caixa-teste-wrapper{
+  .caixa-teste-wrapper {
     justify-content: center;
     width: 90%;
     flex-wrap: wrap;
     gap: 12px;
   }
 
-  .nav-bar{
+  .nav-bar {
     margin: 2px;
     gap: 4px;
     width: 90%;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .lista-nav-bar{
+  .lista-nav-bar {
     gap: 12px;
     width: 100%;
     justify-content: center;
@@ -233,15 +238,15 @@
   }
 }
 
-@media (max-width: 320px){
-    .lista-nav-bar{
-        gap: 6px;
-        width: 100%;
-        justify-content: center;
-        font-size: 16px;
-      }
+@media (max-width: 320px) {
+  .lista-nav-bar {
+    gap: 6px;
+    width: 100%;
+    justify-content: center;
+    font-size: 16px;
+  }
 
-      .caixa-teste-wrapper img{
-        width: 310px;
-      }
+  .caixa-teste-wrapper img {
+    width: 310px;
+  }
 }
